@@ -41,7 +41,7 @@ Now need to create springboot application conatiner
 * Run the command ``` $ docker build -t kubetest .```
 
 ### Run application
-* Run the command ``` $ docker run --netwrok=my-network -e DB_USERNAME=root -e DB_PASSWORD=XXXXXX -e DB_URL='jdbc:mysql://containername:3306/DBname' -e ACTIVE_PROFILE=docker kubetest ```
+* Run the command ``` $ docker run --netwrok=my-network -e DB_USERNAME=root -e DB_PASSWORD=XXXXXX -e DB_URL='jdbc:mysql://mysql:3306/DBname' -e ACTIVE_PROFILE=docker kubetest ```
 
 
 
